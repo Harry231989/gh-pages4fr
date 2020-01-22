@@ -1,0 +1,24 @@
+Linters I used for this project:
+
+w3c-validation HTML 5
+
+linter-styleint
+
+w3c-validation CSS3
+
+
+
+Issues I found during cross-browser testing:
+
+- On the Contact page, is a little bit slow with images 
+
+- For the Work page, is pretty cool with most of the Browser expect Chrome
+
+- With phone/Handy ..the images are slow to load 
+
+- Safari showed "Site not secure" errors while the other browers didn't
+
+
+
+
+
