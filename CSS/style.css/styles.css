@@ -1,13 +1,9 @@
 *{
-	margin: 0;
-	padding: 0;
-	font-family: verdana;
+	box-sizing: border-box;
 }
 
-
-
 .profile_portrait{
-	float: right;
+	float: left;
 	width: 250px;
 	margin-right: 40px;
 	border-radius: 50%;
@@ -76,9 +72,9 @@ opacity: 0.8;
 }
 
 .page-header{
-	display: inline-flex;
-	width: 80%;
-	padding: 40px;
+	display: flex;
+	width: 100%;
+	padding: 20px;
 }
 
 .page-header_item{
@@ -92,10 +88,7 @@ opacity: 0.8;
 }
 
 .navigation-list{
-	width: 100%;
-	height: 80px;
-	background-color: #000;
-	float: right;
+	list-style-type: none;
 }
 
 .navigation-list li{
@@ -108,10 +101,6 @@ opacity: 0.8;
 
 }
 
-.navigation-ul-li{
-	list-style: none;
-	display: inline-block;
-}
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -238,18 +227,6 @@ opacity: 0.8;
 #div3{
 	background-color: var(--dark-grey);
 }
-.contact ul li{
-	clear: both;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	
-
-}
-
-
-
-
 
 
 
